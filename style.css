@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=New+Tegomin&display=swap');
 
 /*
 =============== 
@@ -42,10 +42,8 @@ Variables
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
-  --clr-gold: #c59d5f;
+  --clr-gold: #339fbd;
   --clr-black: #222;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -68,9 +66,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-secondary);
+  font-family: 'Libre Baskerville', serif;
   background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -79,35 +76,6 @@ ul {
 }
 a {
   text-decoration: none;
-}
-img:not(.logo) {
-  width: 100%;
-}
-img {
-  display: block;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
-}
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.25rem;
-}
-h4 {
-  font-size: 0.875rem;
 }
 p {
   margin-bottom: 1.25rem;
@@ -187,7 +155,7 @@ Questions
 }
 .title h2 {
   color: var(--clr-gold);
-  font-family: "Great Vibes", cursive;
+  font-family: 'New Tegomin', serif;
   text-align: center;
 }
 .section-center {
@@ -211,7 +179,7 @@ Questions
 .question-title p {
   margin-bottom: 0;
   letter-spacing: var(--spacing);
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-8);
 }
 .question-btn {
   font-size: 1.5rem;
