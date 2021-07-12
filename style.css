@@ -199,7 +199,7 @@ Questions
 .question-text p {
   margin-bottom: 0;
 }
-/* hide text after click - DOM */
+/* hide text after click -DOM */
 .question-text {
   display: none;
 }

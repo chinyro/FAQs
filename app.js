@@ -1,4 +1,4 @@
-//traversing the DOM
+//**traversing the DOM**
 	// const btns = document.querySelectorAll(".question-btn");
 
 	// btns.forEach(function(btn) {
@@ -7,7 +7,8 @@
 	// 		question.classList.toggle("show-text");
 	// 	});
 	// });
-//selectors inside the element
+
+//**selectors inside the element**
 const questions = document.querySelectorAll('.question');
 
 questions.forEach(function(question) {

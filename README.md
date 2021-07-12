@@ -1,2 +1,5 @@
 # FAQs
-Practice: Building JavaScript Projects - Vanilla JavaScript Course (created by John Smilga)
+
+![](images/FAQs.gif)
+
+Inspired by JS Course by John Smilga
